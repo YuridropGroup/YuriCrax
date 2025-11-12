@@ -69,6 +69,7 @@ call echo %purple%[ %%TIME:~0,8%% ]%reset% %white%Compressing into .7z archive..
 :: Cleanup.
 :: =================================
 
+rmdir /s /q %temp_directory%
 call echo %purple%[ %%TIME:~0,8%% ]%reset% %white%Game compression complete.%reset%
 pause
 endlocal
